@@ -39,7 +39,7 @@ sub with {
 
 =for Pod::Coverage ^(with)$
 
-=head1 SYNOPSYS
+=head1 SYNOPSIS
 
 In L<MyRole1.pm>:
 
