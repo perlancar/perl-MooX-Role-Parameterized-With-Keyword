@@ -1,3 +1,5 @@
+## no critic: (Modules::ProhibitAutomaticExportation)
+
 package MooX::Role::Parameterized::With::Keyword;
 
 use Exporter        qw(import);
@@ -34,6 +36,8 @@ sub with {
 
 1;
 # ABSTRACT: DSL to apply roles with composition parameters
+
+=for Pod::Coverage ^(with)$
 
 =head1 SYNOPSYS
 
